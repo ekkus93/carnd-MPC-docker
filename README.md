@@ -24,7 +24,8 @@ docker run -it -v /Users/phillipcchin/work/carnd/CarND-MPC-Project:/home/ubuntu/
 
 (It's easier if your repo directory is in your home directory otherwise you might have to give docker permissions to mount it.)
 
-Once the docker container is running, you should be logged in as the ubuntu user and your current directory will be your project's repo directory.
+Once the docker container is running, you should be logged in as the ubuntu user and your current directory will be your project's repo directory.  You should be able to compile the code.  When you run mpc in the container, it will bind to port 4567 on your localhost and be able to connect to the simulator.
+
 
 
 
